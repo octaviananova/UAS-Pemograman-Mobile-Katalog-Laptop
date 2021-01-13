@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="4dp"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/row_tx_desc_transaksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="Belanja bakso kikil di 2A"
+        />
+    <TextView
+        android:id="@+id/row_tx_nilai_transaksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="Belanja bakso kikil di 2A"
+        />
+    <TextView
+        android:id="@+id/row_tx_nilai_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="@+id/row_tx_nilai_model"
+        />
+
+</LinearLayout>
